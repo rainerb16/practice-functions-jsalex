@@ -15,9 +15,7 @@ var array = [1, 3, 2, 7, 4, 6, 10, 11, 12];
 
 // Finding middle element of array
 function findMiddle(array) {
-  
     var divideTwo = Math.floor(array.length / 2);
-
     if(array.length % 2 === 0) {
         console.log("The middle element of this array when the length is even is: " + array[divideTwo - 1] + ", " + array[divideTwo]);
     } else {
