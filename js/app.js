@@ -7,22 +7,20 @@
 
 // A function that returns the middle element of the array
 
-// Array to test ODD
-var array = [1, 3, 2, 7, 4, 6, 10, 11, 12];
 
-// Array to test EVEN
+var arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7];
 //var array = [1, 2, 3, 4, 5, 6];
 
 // Finding middle element of array
-function findMiddle(array) {
-    var divideTwo = Math.floor(array.length / 2);
-    if(array.length % 2 === 0) {
-        console.log("The middle element of this array when the length is even is: " + array[divideTwo - 1] + ", " + array[divideTwo]);
+function findMiddle(arrayOfNumbers) {
+    var divideTwo = Math.floor(arrayOfNumbers.length / 2);
+    if(arrayOfNumbers.length % 2 === 0) {
+        console.log("The middle elements of this array when the length is even is: " + arrayOfNumbers[divideTwo - 1] + ", " + arrayOfNumbers[divideTwo]);
     } else {
-      console.log("The middle element of this array when the length is odd is: " + array[divideTwo]);
+      console.log("The middle element of this array when the length is odd is: " + arrayOfNumbers[divideTwo]);
     }
 }
 
 // Calling function
-findMiddle(array);
+findMiddle(arrayOfNumbers);
 
