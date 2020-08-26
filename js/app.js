@@ -25,31 +25,31 @@ findMiddle(arrayOfNumbers);
 
 var userTwitter = [
   {
-    tweet: "You need to GIT GUD",
+    tweet: "HELLO?! You need to GIT GUD #coder #hello",
     username: "@rainerb16",
     name: "Rainer",
     score: 9.5
   },
   {
-    tweet: "HELLO?! Hooman, I want food! NOW!",
+    tweet: "Hooman, I want food! NOW! #kittylife",
     username: "@meow",
     name: "Cylus",
     score: 8
   },
   {
-    tweet: "HELLO?! I'm sleepy deepy.",
+    tweet: "HELLO?! I'm sleepy deepy. #hello",
     username: "@brandelio",
     name: "Brandy",
     score: 10
   },
   {
-    tweet: "ZEUS, stop it! You're going to get us in trouble!",
+    tweet: "ZEUS, stop it! You're going to get us in trouble! #kittylife",
     username: "@ibeatzeus",
     name: "Cola",
     score: 4.5
   },
   {
-    tweet: "Cola, stop tattling on me!",
+    tweet: "Cola, stop tattling on me! #kittylife",
     username: "@kingzeus",
     name: "Zeus",
     score: 3
@@ -84,5 +84,5 @@ function tweetSearch(userTweets, word) {
 }
 
 // Calling function
-var tweetsFound = tweetSearch(userTwitter,"HELLO");
+var tweetsFound = tweetSearch(userTwitter,"#kittylife");
 console.log(tweetsFound);
